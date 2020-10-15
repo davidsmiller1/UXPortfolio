@@ -1,0 +1,546 @@
+/* Typography */
+
+.h1Blue {
+    font: 60px Helvetica, sans-serif;
+    color: #1C3059;
+    font-weight: bold;
+}
+
+.h1White {
+    font: 60px Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.h2Blue {
+    font: 40px Helvetica, sans-serif;
+    color: #1C3059;
+    font-weight: 500;
+}
+
+.h2White {
+    font: 40px Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.h3Blue {
+    font: 20px Helvetica, sans-serif;
+    color: #1C3059;
+    font-weight: normal;
+}
+
+.h3White {
+    font: 20px Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.h3Gray {
+    font: 20px Helvetica, sans-serif;
+    color: #707070;
+    font-weight: normal;
+}
+
+.h3GrayBlue {
+    font: 20px Helvetica, sans-serif;
+    color: #78849C;
+    font-weight: normal;
+}
+
+/* Links */
+a:link {
+    text-decoration: none;
+    color: #1C3059;
+}
+  
+a:visited {
+    text-decoration: underline;
+    color: #1C3059;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: #1C3059;
+  }
+  
+a:active {
+    text-decoration: underline;
+    color: #1C3059;
+  }
+
+
+/* Body */
+
+.body {
+    margin: 0px 0px 0px 0px;
+}
+
+/* Header */
+
+.navigationCard {
+    width: 98%;
+    height: auto;
+    background-color: #1C3059;
+    padding: 1% 1% 1% 1%;
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .logo {
+        width: 10%;
+        float: left;
+        cursor: pointer;
+    }
+
+    .logo:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .buttonGroup {
+        list-style-type: none;
+        text-align: right;
+        float: left;
+        vertical-align: top;
+        width: 90%;
+        height: auto;
+    }
+
+        .navButton {
+            display: inline-block;
+            vertical-align: top;
+            width: 100px;
+            height: 25px;
+            background-color: #1C3059;
+            color: white;
+            font: 20px Helvetica, sans-serif;
+            border: none;
+            border-radius: 8px;
+            margin: 1px 1px;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            }
+
+        .navButton:hover {
+            background-color: white;
+            color: #1C3059;
+            transform: scale(1.1, 1.1);
+        }    
+
+/* Landing Page */
+
+.homeSection {
+    width: 100%;
+    height: auto;
+}
+
+    .heroImage img {
+        margin-top: 75px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+/* About Page */
+
+.aboutSection {
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+}
+
+    .aboutTitle {
+        width: 100%;
+        float: left;
+    }
+
+    .aboutGroup {
+        width: 100%;
+        display: inline-block;
+    }
+
+        .aboutText {
+            width: 48%;
+            float: left;
+            vertical-align: top;
+            padding-right: 2%;
+        }
+
+            .aboutText p {
+                max-width: 100%;
+                max-height: 100%;   
+            }
+
+        .aboutImage {
+            width: 48%;
+            float: left;
+            padding-left: 2%;
+        }
+
+            .aboutImage img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+    .buttonBox {
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+
+        .resumeButton {
+            width: 250px;
+            background-color: white;
+            color: #1C3059;
+            font: 20px Helvetica, sans-serif;
+            border: 2px solid #1C3059;
+            border-radius: 8px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px; 
+            margin: 4px 2 px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            }
+
+            .resumeButton:after {
+                content: "View my resume";
+            }
+            
+            .resumeButton:hover::after {
+                color: white;
+                content: "Learn more!";
+            }
+
+            .resumeButton:hover {
+                background-color: #1C3059;
+                color: white;
+                transform: scale(1.1, 1.1);
+            }
+
+/* Quote Page */
+
+.quoteSection {
+    width: 100%;
+    height: auto;
+    background-color: #1C3059;
+}
+
+    .quoteCard {
+        width: 86%;
+        margin: 0% 7% 0% 7%;
+    }
+
+    .quoteIcon {
+        width: 90px;
+        height: 90px;
+        float: left;
+        padding: 5% 0% 0% 5%;
+    }
+
+        .quoteIcon img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+    .quoteText {
+        margin: 0 auto;
+        padding: 4% 0% 0% 0%;
+        width: 70%;
+        text-align: left;
+    }
+
+        .authorText {
+            margin-left: 75%;
+            padding: 0% 0% 2% 0%;
+            text-align: left;
+        }
+
+
+/* Services Page */
+
+.servicesSection {
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+}
+
+    .servicesTitle {
+        width: 100%;
+        float: left;
+    }
+
+    .servicesGrid {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .researchCard {
+        width: 33%;
+        height: 300px;
+        float: left;
+        vertical-align: top;
+    }
+
+        .researchIcon {
+            width: 90px;
+            height: 90px;
+            padding: 3%;
+        }
+
+            .researchIcon img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+    .designCard {
+        width: 33%;
+        height: 300px;
+        float: left;
+        vertical-align: top;
+    }
+
+        .designIcon {
+            width: 90px;
+            height: 90px;
+            padding: 3%;
+        }
+
+            .designIcon img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+    .frontendCard {
+        width: 33%;
+        height: 300px;
+        float: left;
+        vertical-align: top;
+    }
+
+        .frontendIcon {
+            width: 90px;
+            height: 90px;
+            padding: 3%;
+        }
+
+            .frontendIcon img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+    .buttonBox {
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+
+        .servicesButton {
+            width: 250px;
+            background-color: white;
+            color: #1C3059;
+            font: 20px Helvetica, sans-serif;
+            border: 2px solid #1C3059;
+            border-radius: 8px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px; 
+            margin: 4px 2 px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            }
+
+            .servicesButton:after {
+                content: "Let's work together!";
+            }
+            
+            .servicesButton:hover::after {
+                color: white;
+                content: "Contact me!";
+            }
+
+            .servicesButton:hover {
+                background-color: #1C3059;
+                color: white;
+                transform: scale(1.1, 1.1);
+            }
+
+/* Projects Page */
+
+.projectsSection {
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+}
+
+    .projectsTitle {
+        width: 100%;
+        float: left;
+    }
+
+    .projectsGrid {
+        width: 100%;
+        display: inline-block;
+    }
+
+        .project1Card {
+            width: 44%;
+            float: left;
+            padding: 3%;
+            cursor: pointer;
+        }
+
+            .project1Card img {
+                max-width: 100%;
+                max-height: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .project1Card:hover {
+                transform: scale(1.1, 1.1);
+            }
+
+        .project2Card {
+            width: 44%;
+            float: left;
+            padding: 3%;
+            cursor: pointer;
+        }
+
+            .project2Card img {
+                max-width: 100%;
+                max-height: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .project2Card:hover {
+                transform: scale(1.1, 1.1);
+            }
+
+        .project3Card {
+            width: 44%;
+            float: left;
+            padding: 3%;
+            cursor: pointer;
+        }
+
+            .project3Card img {
+                max-width: 100%;
+                max-height: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .project3Card:hover {
+                transform: scale(1.1, 1.1);
+            }
+
+        .project4Card {
+            width: 44%;
+            float: left;
+            padding: 3%;
+            cursor: pointer;
+        }
+
+            .project4Card img {
+                max-width: 100%;
+                max-height: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .project4Card:hover {
+                transform: scale(1.1, 1.1);
+            }
+
+/* Contact Page */
+
+.contactSection {
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+}
+
+    .contactTitle {
+        width: 100%;
+        float: left;
+    }
+
+    .contactGrid {
+        width: 100%;
+        display: block;
+    }
+
+        .emailCard {
+            width: 100%;
+            display: inline-block;
+            margin: 0px 0px 25px 0px;
+        }
+
+            .emailIcon {
+                width: 10%;
+                float: left;
+                padding-right: 2%;
+                cursor: pointer;
+            }
+
+                .emailIcon img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+            .emailText {
+                width: 40%;
+                float: left;
+                vertical-align: top;
+                padding-right: 2%;
+                cursor: pointer;
+            }
+
+                .emailText p {
+                    max-width: 100%;
+                    max-height: 100%;   
+                }
+
+        .linkedinCard {
+            width: 100%;
+            display: inline-block;
+            margin: 25px 0px 50px 0px;
+        }
+
+            .linkedinIcon {
+                width: 10%;
+                float: left;
+                padding-right: 2%;
+                cursor: pointer;
+            }
+
+                .linkedinIcon img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+            .linkedinText {
+                width: 40%;
+                float: left;
+                margin-top: 1%;
+                padding-right: 2%;
+                cursor: pointer;
+            }
+
+                .linkedinText p {
+                    max-width: 100%;
+                    max-height: 100%; 
+                }
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1C3059;
+}
+
+    .copyrightText {
+        text-align: center;
+        padding: 1% 0% 0% 0%;
+    }
